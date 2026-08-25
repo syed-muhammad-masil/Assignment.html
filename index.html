@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUBMISSION PORTAL</title>
+</head>
+
+<body>
+  <style>
+td:first-child {
+    text-align: right;
+}
+  </style>
+  <form action=./feedback.html>
+  <fieldset>
+<table cellpadding="8px" cellspacing="3px" border="2px">
+    <legend align="center"><h1><i>JOB DETAILS</i></h1></legend>
+ <tr><td>Job title:</td><td><input type="text" name="job title "placeholder="enter your job title" required></td></tr>
+ <tr><td>Description:</td><td><textarea name="Description" placeholder="enter your job decription" required rows="4" cols="25" minlength="50"></textarea><br><p>DESCRIPTION SHOULD CONTAIN ATLEAST 50 CHARACTERS</p> </td></tr>
+ <tr><td>Name:</td><td><input type="text" name="Name" placeholder="enter your Name" required></td></tr>
+ <tr><td>Phone Number:</td><td><input type="number" name="Phonenumber" placeholder="enter your phone number" required></td></tr>
+ <tr><td>Email:</td><td><input type="email" name="Email" placeholder="enter your email" required></td></tr>
+ <tr><td>Date of Birth:</td><td><input type="date" name="D.O.B." placeholder="dd/mm/yyyy" required></td></tr>
+  <tr>
+    <td>Work Status:</td>
+<td>  <input type="radio"  name="status" required>Full time
+  <input type="radio" name="status" required>Part time
+  <input type="radio" name="status" required>Hourly
+</td>
+</tr>
+  <tr>
+    <td>Qualifications:</td>
+    <td>
+      <select name="Qualifications" multiple="multiple">
+        <option disabled selected>Choose your Qualifications</option>
+      <option required>  Matriculation</option>
+      <option required>  Intermediate</option>
+      <option required>Bachelors</option>
+      <option required>Masters/M.Phil </option>
+      <option required>Ph.d or higher</option>
+</select>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Skills :
+    </td>
+    <td>
+      <input type="checkbox" name="skills">HTML
+      <input type="checkbox" name="skills">C
+      <input type="checkbox" name="skills">C++
+      <input type="checkbox" name="skills">C#
+      <input type="checkbox" name="skills">CSS
+      <input type="checkbox" name="skills">JAVA
+      <input type="checkbox" name="skills">JAVASCRIPT
+      <input type="checkbox" name="skills">PYTHON
+      <input type="checkbox" name="skills">PHP
+      <input type="checkbox" name="skills">SQL
+      <input type="checkbox" name="skills">KOTLIN
+      <input type="checkbox" name="skills">RUST
+      <input type="checkbox" name="skills">GO
+      
+    </td>
+  </tr>
+  <tr> 
+    <td>
+      Salary :
+    </td>
+    <td>
+      <input type="number"  namename="salary"required placeholder="Enter your salary"><select>
+        <option>US DOLLAR $</option>
+        <option>POUND £</option>
+        <option>EURO €</option>
+        <option>PKR </option>
+      </select>
+    </td>
+  </tr>
+<tr>
+  <td>Enter Your Picture :</td>
+  <td><input type="file" name="Picture" accept="image/*"></td>
+</tr>
+
+<tr><td></td><td><input type="image" src="./Assets/submit.png" height="70px" width="80px" align="center"></td></tr>
+</table>
+</form>
+</fieldset>
+  </form>
+</body>
+</html>
